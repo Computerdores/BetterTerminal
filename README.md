@@ -1,7 +1,12 @@
-# LethalCompanyTemplate
+# BetterTerminal
+## Overview
 
-[![](https://img.shields.io/badge/YourThunderstoreTeam-Template-blue?logo=thunderstore)](https://thunderstore.io/c/lethal-company/p/YourThunderstoreTeam/Template/)
+// TODO
 
-Template to create Lethal Company plugins.
+## Contributing
+If you want to contribute just open a pull request and make sure your code follows the same style as the existing code base.
 
-If you want to create your own plugin with this template, check the [wiki](https://github.com/Distractic/LethalCompanyTemplate/wiki).
+Note that the [license](LICENSE) used by this project includes a [CLA](https://en.wikipedia.org/wiki/Contributor_License_Agreement).
+
+## Credits
+This project uses the [LethalCompanyTemplate by Distractic](https://github.com/Distractic/LethalCompanyTemplate) under the [MIT License](https://github.com/Distractic/LethalCompanyTemplate/blob/main/LICENSE).
