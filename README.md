@@ -1,5 +1,6 @@
 # BetterTerminal
-## Overview
+[![](https://img.shields.io/badge/Computerdores-BetterTerminal-brightgreen
+)](https://thunderstore.io/c/lethal-company/p/Computerdores/BetterTerminal/)
 
 // TODO
 
