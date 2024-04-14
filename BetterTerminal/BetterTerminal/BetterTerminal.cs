@@ -2,7 +2,7 @@
 using BepInEx.Logging;
 using HarmonyLib;
 
-namespace Computerdores;
+namespace Computerdores.BetterTerminal;
 
 [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
 public class BetterTerminal : BaseUnityPlugin

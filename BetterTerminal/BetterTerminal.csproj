@@ -25,7 +25,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="patch" />
+      <Folder Include="BetterTerminal\patch" />
     </ItemGroup>
 
     <!-- https://github.com/EvaisaDev/UnityNetcodePatcher#usage-as-a-post-build-event -->
