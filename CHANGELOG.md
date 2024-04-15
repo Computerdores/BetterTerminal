@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/Computerdores/BetterTerminal/compare/v1.0.1...v1.0.2) (2024-04-15)
+
+
+### Bug Fixes
+
+* category name in thunderstore.toml was wrong ([c2ccb18](https://github.com/Computerdores/BetterTerminal/commit/c2ccb18aaca98d9765ce7e6cd675713b22e61416))
+
 ## [1.0.1](https://github.com/Computerdores/BetterTerminal/compare/v1.0.0...v1.0.1) (2024-04-15)
 
 
