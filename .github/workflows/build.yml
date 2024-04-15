@@ -19,6 +19,8 @@ jobs:
 
       - name: Initialization
         uses: ./.github/actions/init
+        permissions:
+          packages: read
         with:
           thunderstore-client: false
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
