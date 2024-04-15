@@ -38,6 +38,7 @@ jobs:
         uses: ./.github/actions/init
         with:
           thunderstore-client: true
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build
         run: dotnet build

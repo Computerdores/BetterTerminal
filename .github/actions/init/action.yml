@@ -5,10 +5,17 @@ inputs:
   thunderstore-client:
     description: True if the Thunderstore client should be installed
     required: false
+  TOKEN:
+    description: Token used to access the GitHub NuGet registry to download packages
+    required: true
 
 runs:
   using: composite
   steps:
+    - name: Add GitHub NuGet Registry
+      shell: bash
+      run: dotnet nuget add source --username Computerdores --password ${{ inputs.TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/Computerdores/index.json"
+  
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
