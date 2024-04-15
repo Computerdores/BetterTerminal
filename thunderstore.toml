@@ -23,8 +23,8 @@ readme = "README.md"
 outdir = "build"
 
 [[build.copy]]
-source = "Template/bin/Template.dll"
-target = "BepInEx/plugins/Template.dll"
+source = "BetterTerminal/bin/BetterTerminal.dll"
+target = "BepInEx/plugins/BetterTerminal.dll"
 
 [[build.copy]]
 source = "CHANGELOG.md"
