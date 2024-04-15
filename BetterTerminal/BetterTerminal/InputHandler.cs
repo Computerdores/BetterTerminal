@@ -11,6 +11,6 @@ public class InputHandler : LcInputActions {
     [InputAction(KeyboardControl.DownArrow, Name = "Next Command")]
     public InputAction NextCommand { get; set; }
     
-    [InputAction(KeyboardControl.LeftAlt, Name = "Auto Complete")]
+    [InputAction(KeyboardControl.LeftCtrl, Name = "Auto Complete")]
     public InputAction AutoComplete { get; set; }
 }
