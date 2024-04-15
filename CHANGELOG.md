@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/Computerdores/BetterTerminal/compare/v1.0.0...v1.0.1) (2024-04-15)
+
+
+### Bug Fixes
+
+* remove unnecessary directory ([1065375](https://github.com/Computerdores/BetterTerminal/commit/10653754b00dec9defd5555f3c0653ac1a61e8da))
+
 ## 1.0.0 (2024-04-15)
 
 
