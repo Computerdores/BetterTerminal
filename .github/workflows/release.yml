@@ -47,6 +47,7 @@ jobs:
 
       - name: Publish to Thunderstore
         run: tcli publish --config-path thunderstore.toml --file build/*.zip
+        continue-on-error: true
         env:
           TCLI_AUTH_TOKEN: ${{ secrets.THUNDERSTORE_AUTH_TOKEN }}
 
