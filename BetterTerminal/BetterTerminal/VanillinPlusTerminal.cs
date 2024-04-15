@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Computerdores.AdvancedTerminalAPI;
 using Computerdores.AdvancedTerminalAPI.Vanillin;
+using HarmonyLib;
 using UnityEngine.InputSystem;
 
 namespace Computerdores.BetterTerminal; 
@@ -45,7 +47,21 @@ public class VanillinPlusTerminal : VanillinTerminal {
 
     private void AutoComplete(InputAction.CallbackContext context) {
         if (!wrapper.TerminalInUse) return;
-        //driver.Input = "AutoComplete Placeholder";
+        if (currentCommand != null) {
+            if (currentCommand is IPredictable predictable) {
+                driver.Input = predictable.PredictInput(driver.Input);
+            }
+        } else {
+            string[] words = driver.Input.Split(' ');
+            if (words.Length == 1) {
+                driver.Input = FindCommand(words[0]).GetName() + " ";
+            } else {
+                ICommand cmd = FindCommand(words[0]);
+                if (cmd is IPredictable predictable) {
+                    driver.Input = $"{cmd.GetName()} {predictable.PredictInput(words.Skip(1).Join(delimiter: " "))}";
+                }
+            }
+        }
     }
     
 }
