@@ -2,7 +2,9 @@
 [![](https://img.shields.io/badge/Computerdores-BetterTerminal-brightgreen
 )](https://thunderstore.io/c/lethal-company/p/Computerdores/BetterTerminal/)
 
-// TODO
+Adds Auto Completion and Command History to the Terminal.
+
+Depends on the [AdvancedTerminalAPI](https://github.com/Computerdores/AdvancedTerminalAPI).
 
 ## Contributing
 If you want to contribute just open a pull request and make sure your code follows the same style as the existing code base.
