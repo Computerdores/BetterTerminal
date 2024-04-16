@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/Computerdores/BetterTerminal/compare/v1.0.3...v1.0.4) (2024-04-16)
+
+
+### Bug Fixes
+
+* update preferred API version ([edcebfb](https://github.com/Computerdores/BetterTerminal/commit/edcebfb9387db6efa5e618d5f793eedf86ed3300))
+
 ## [1.0.3](https://github.com/Computerdores/BetterTerminal/compare/v1.0.2...v1.0.3) (2024-04-16)
 
 
