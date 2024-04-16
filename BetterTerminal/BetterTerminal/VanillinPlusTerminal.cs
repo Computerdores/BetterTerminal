@@ -31,8 +31,8 @@ public class VanillinPlusTerminal : VanillinTerminal {
         base.OnSubmit(text);
         if (!wrapper.TerminalInUse) return;
         Index = 0;
-        if (_history.Count > 1 && _history[1] != text)
-            _history.Insert(1, text);
+        if (_history.Count > 1 && _history[1] == text) return;
+        _history.Insert(1, text);
     }
 
     private void PrevCommand(InputAction.CallbackContext context) {
