@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/Computerdores/BetterTerminal/compare/v1.0.2...v1.0.3) (2024-04-16)
+
+
+### Bug Fixes
+
+* untested commit broke Command History ([d17e900](https://github.com/Computerdores/BetterTerminal/commit/d17e900e838bc03c85b2d125c78e0825330d5821))
+
 ## [1.0.2](https://github.com/Computerdores/BetterTerminal/compare/v1.0.1...v1.0.2) (2024-04-15)
 
 
