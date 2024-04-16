@@ -1,6 +1,8 @@
 # BetterTerminal
 [![](https://img.shields.io/badge/Computerdores-BetterTerminal-brightgreen
 )](https://thunderstore.io/c/lethal-company/p/Computerdores/BetterTerminal/)
+[![](https://img.shields.io/badge/Install-v1.0.3-brightgreen
+)](https://intradeus.github.io/http-protocol-redirector?r=ror2mm://v1/install/thunderstore.io/Computerdores/BetterTerminal/1.0.3/)
 
 Adds Auto Completion and Command History to the Terminal.
 
