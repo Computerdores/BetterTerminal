@@ -49,7 +49,7 @@ public class VanillinPlusTerminal : VanillinTerminal {
         if (!wrapper.TerminalInUse) return;
         if (currentCommand != null) {
             if (currentCommand is IPredictable predictable) {
-                driver.Input = predictable.PredictInput(driver.Input);
+                driver.Input = predictable.PredictInput(driver.Input, this);
             }
         } else {
             string[] words = driver.Input.Split(' ');
@@ -59,7 +59,7 @@ public class VanillinPlusTerminal : VanillinTerminal {
             } else {
                 ICommand cmd = FindCommand(words[0]);
                 if (cmd is IPredictable predictable) {
-                    driver.Input = $"{cmd.GetName()} {predictable.PredictInput(words.Skip(1).Join(delimiter: " "))}";
+                    driver.Input = $"{cmd.GetName()} {predictable.PredictInput(words.Skip(1).Join(delimiter: " "), this)}";
                 }
             }
         }
