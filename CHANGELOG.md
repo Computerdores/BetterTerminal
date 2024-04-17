@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.0](https://github.com/Computerdores/BetterTerminal/compare/v1.0.4...v1.1.0) (2024-04-17)
+
+
+### Features
+
+* Update to ATAPI v5.0.0 ([a670b24](https://github.com/Computerdores/BetterTerminal/commit/a670b2490e70dbd9b798b85a7b861e5eec691f2e))
+
+
+### Bug Fixes
+
+* missing dir broke builds ([d777e1e](https://github.com/Computerdores/BetterTerminal/commit/d777e1ef4e8396a086e9bb855f8148bc4d4f7fa6))
+* NullReferenceException in AutoComplete ([c2b32a4](https://github.com/Computerdores/BetterTerminal/commit/c2b32a4432a4574d9d23c4c3dbfc64145a1cb739))
+
 ## [1.0.4](https://github.com/Computerdores/BetterTerminal/compare/v1.0.3...v1.0.4) (2024-04-16)
 
 
