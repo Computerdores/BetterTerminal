@@ -54,7 +54,8 @@ public class VanillinPlusTerminal : VanillinTerminal {
         } else {
             string[] words = driver.Input.Split(' ');
             if (words.Length == 1) {
-                driver.Input = FindCommand(words[0]).GetName() + " ";
+                if (FindCommand(words[0]) is { } command)
+                    driver.Input = command.GetName() + " ";
             } else {
                 ICommand cmd = FindCommand(words[0]);
                 if (cmd is IPredictable predictable) {
