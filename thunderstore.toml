@@ -14,7 +14,7 @@ containsNsfwContent = false
 [package.dependencies]
 # https://thunderstore.io/c/lethal-company/p/BepInEx/BepInExPack/
 BepInEx-BepInExPack = "5.4.2100"
-Computerdores-AdvancedTerminalAPI = "5.0.0"
+Computerdores-AdvancedTerminalAPI = "5.1.0"
 Rune580-LethalCompany_InputUtils = "0.7.4"
 
 [build]
