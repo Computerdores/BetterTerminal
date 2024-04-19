@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/Computerdores/BetterTerminal/compare/v1.1.0...v1.2.0) (2024-04-19)
+
+
+### Features
+
+* update to ATAPI v5.1.0 ([c59910d](https://github.com/Computerdores/BetterTerminal/commit/c59910db8827a415bf430b5de943bf5e2793c823))
+
 ## [1.1.0](https://github.com/Computerdores/BetterTerminal/compare/v1.0.4...v1.1.0) (2024-04-17)
 
 
